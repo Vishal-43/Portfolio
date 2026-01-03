@@ -22,15 +22,20 @@ app.use(express.json({ limit: '10kb' }));
 app.use(express.urlencoded({ extended: true, limit: '10kb' }));
 
 // CORS configuration tuned for Vercel deployments
+const vercelDomain = process.env.VERCEL_URL
+  ? `https://${process.env.VERCEL_URL}`
+  : null;
+
 const defaultOrigins = [
   'http://localhost:5173',
   'http://localhost:3000',
   'https://localhost:3000',
   'https://localhost:5173',
-];
+  'https://vishalsodmise.vercel.app',
+].filter(Boolean);
 
 // Allow comma-separated origins in CORS_ORIGINS or CLIENT_URL
-const envOrigins = (process.env.CORS_ORIGINS || process.env.CLIENT_URL || '')
+const envOrigins = (process.env.CORS_ORIGINS || process.env.CLIENT_URL || vercelDomain || '')
   .split(',')
   .map((o) => o.trim())
   .filter(Boolean);
