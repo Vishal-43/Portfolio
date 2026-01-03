@@ -1,0 +1,379 @@
+{
+  "personal": {
+    "name": "Vishal Sodmise",
+    "title": "Full Stack Developer & AI Enthusiast",
+    "email": "vishalsodmise@gmail.com",
+    "phone": "+91-9136121594",
+    "location": "Mumbai, Maharashtra, India",
+    "description": "2nd year engineering student building innovative full-stack applications with AI/ML integration. Passionate about fintech, systems programming, and creating scalable solutions.",
+    "bio": "Competitive programmer | Hackathon enthusiast | Open source contributor | Crafting intelligent systems with clean code.",
+    "avatar": "https://example.com/avatar.jpg",
+    "socialLinks": [
+      { "name": "GitHub", "url": "https://github.com/Vishal-43", "icon": "github" },
+      { "name": "LinkedIn", "url": "www.linkedin.com/in/vishal-it", "icon": "linkedin" },
+      { "name": "Twitter", "url": "https://x.com/vishalsodmise", "icon": "twitter" },
+      { "name": "Email", "url": "mailto:vishalsodmise@gmail.com", "icon": "mail" }
+    ]
+  },
+  
+  "hero": {
+    "titles": [
+      "Full Stack Developer",
+      "AI/ML Enthusiast",
+      "Systems Programmer",
+      "APP Developer",
+        "DevOps"
+      
+      
+    ],
+    "cta": {
+      "primary": "View My Projects",
+      "secondary": "Get In Touch"
+    },
+    "stats": [
+      { "label": "Projects Built", "value": "10+" },
+      { "label": "Hackathons", "value": "1" },
+      { "label": "Technologies", "value": "7+" }
+    ]
+  },
+
+  "about": {
+    "title": "About Me",
+    "subtitle": "Engineering student crafting intelligent full-stack solutions",
+    "description": "I'm a 2nd year IT engineering student with expertise in full-stack development, artificial intelligence, App dev and systems programming. I combine strong DSA fundamentals with practical project experience to build scalable, intelligent applications. Actively participating in hackathons and developing production-grade solutions using modern technologies.",
+    "highlights": [
+      {
+        "icon": "code",
+        "title": "Full Stack Development",
+        "description": "Building end-to-end applications with Spring Boot, React, FastAPI, and cloud deployment on AWS/Supabase."
+      },
+      {
+        "icon": "brain",
+        "title": "AI & Machine Learning",
+        "description": "Developing intelligent systems with LSTM, Random Forest, XGBoost models integrated into production applications."
+      },
+      {
+        "icon": "cpu",
+        "title": "Systems Programming",
+        "description": "Strong foundation in OS concepts, kernel programming, and low-level optimization using C/C++."
+      },
+      {
+        "icon": "zap",
+        "title": "DSA & Algorithms",
+        "description": "160+ days DSA challenge completion with strong competitive programming fundamentals."
+      }
+    ]
+  },
+
+  "journey": {
+    "title": "My Journey",
+    "subtitle": "From Learning to Building",
+    "milestones": [
+      {
+        "year": "2024",
+        "icon": "graduation-cap",
+        "title": "Started Engineering",
+        "description": "Began BE IT at Vasantdada Patil Pratishthan's College. Started learning web development and competitive programming alongside academics."
+      },
+      {
+        "year": "2025 ",
+        "icon": "briefcase",
+        "title": "First Full Stack Project",
+        "description": "Built Local Service Booking Platform with Spring Boot, React, and PostgreSQL. Learned microservices architecture and deployment practices."
+      },
+      {
+        "year": "2025 ",
+        "icon": "brain",
+        "title": "AI Integration & Fintech",
+        "description": "Developed Fintech Agentic AI Banking System with fraud detection, transaction management, and intelligent analysis."
+      },
+      {
+        "year": "2025 ",
+        "icon": "rocket",
+        "title": "Hackathon Participation",
+        "description": "Participated in multiple hackathons, exploring innovative problem statements and building solutions under pressure."
+      },
+      {
+        "year": "2026 ",
+        "icon": "trending-up",
+        "title": "Portfolio & Internship Prep",
+        "description": "Building comprehensive portfolio, contributing to open source, preparing for internship applications with real-world projects."
+      },
+      {
+        "year": "2026",
+        "icon": "trending-up",
+        "title": "Internship",
+        "description": "Gained practical experience through internship, applying skills in real-world projects and collaborating with professional teams at GenXsys."
+      }
+    ]
+  },
+
+  "projects": {
+    "title": "Featured Projects",
+    "subtitle": "Building Intelligent Solutions",
+    "filters": ["all", "fullstack", "ai-ml", "systems"],
+    "items": [
+      {
+        "id": 1,
+        "title": "Fintech Agentic AI Banking System",
+        "category": "fullstack",
+        "shortDescription": "AI-powered banking system with fraud detection and intelligent transaction management",
+        "description": "A comprehensive fintech application featuring agentic AI for transaction analysis, fraud detection using machine learning, and intelligent banking recommendations. Built with FastAPI backend, React frontend, and PostgreSQL database with real-time notifications.",
+        "technologies": ["FastAPI", "React", "PostgreSQL", "Machine Learning", "Agentic AI", "JWT Auth", "Spring Boot"],
+        
+        "githubUrl": "https://github.com/lokeshkonka/fin-agent-hack-the-flame",
+        "badges": ["Featured", "AI-Driven"]
+      },
+      {
+        "id": 2,
+        "title": "Local Service Booking Platform",
+        "category": "fullstack",
+        "shortDescription": "Spring Boot-based platform for booking and managing local services",
+        "description": "Full-featured service booking system with user authentication, service provider management, booking system, payment integration, and admin dashboard. Features real-time notifications, rating system, and transaction history.",
+        "technologies": ["Spring Boot", "React", "PostgreSQL", "JWT", "Docker", "AWS"],
+        
+        "githubUrl": "https://github.com/Vishal-43/servicebooking-",
+        "badges": ["Latest"]
+      },
+    
+      {
+        "id": 3,
+        "title": "ChitchatCli",
+        "category": "systems",
+        "shortDescription": "Terminal-based CLI chat application with socket programming",
+        "description": "High-performance CLI chat application built with Python socket programming. Features real-time messaging, user management, message history, and command-line interface optimization for terminal environments.",
+        "technologies": ["Python", "Socket Programming", "CLI", "Threading", "JSON"],
+        
+        "githubUrl": "https://github.com/Vishal-43/ChitchatCli",
+        "badges": []
+      },
+      {
+        "id": 4,
+        "title": "Arch Linux i3 Ricing Configuration",
+        "category": "systems",
+        "shortDescription": "Optimized Linux environment with custom window manager configuration",
+        "description": "Fully customized Arch Linux setup with i3 window manager, polybar, custom keybindings, and system optimization. Configuration files, documentation, and setup scripts for reproducible development environment.",
+        "technologies": ["Bash", "Linux", "i3", "Polybar", "Vim", "Git"],
+        "badges": ["Open Source"]
+      },
+      {
+        "id": 5,
+        "title": "Voice Based AI Assistant",
+        "category": "Other",
+        "shortDescription": "voice based Ai assistant",
+        "description": "This repository contains a simple voice assistant built using Python. It can perform tasks like answering questions, providing weather updates, setting reminders, and more. It uses speech recognition and text-to-speech libraries to interact with the user. Simple Voice Assistant in Python This repository contains a simple voice assistant built using Python. The voice assistant can perform various tasks such as answering questions, providing weather updates, setting reminders, searching the web, searching Wikipedia, opening applications, and more. It uses speech recognition and text-to-speech libraries to interact with the user.",
+        "technologies":["python","speech recognition","text to speech","wikipedia api","webbrowser","datetime"],
+        "githubUrl": "https://github.com/Vishal-43/assitant_captain",
+        "badges": [""]
+      },
+       {
+        "id": 5,
+        "title": "Quasar Browser",
+        "category": "Other",
+        "shortDescription": "voice based Ai assistant",
+        "description": "A lightweight, tabbed web browser built using Python and PyQt. Quasar Browser offers essential browsing features with a clean and customizable interface.",
+        "technologies":["python", "PyQt", "WebEngine"],
+        "githubUrl": "https://github.com/Vishal-43/Quasar-Browser",
+        "badges": [""]
+      }
+    ]
+  },
+
+  "experience": {
+    "title": "Experience & Learning",
+    "subtitle": "Continuous Growth",
+    "items": [
+      {
+        "id": 1,
+        "company": "Personal Projects",
+        "position": "Full Stack Developer & AI Engineer",
+        "duration": "2025 - Present",
+        "icon": "briefcase",
+        "description": "Building production-grade full-stack applications combining AI/ML with real-world fintech and service platforms",
+        "achievements": [
+          "Developed Fintech Agentic AI Banking System with fraud detection and transaction intelligence",
+          "Built Local Service Booking Platform with 100+ services integration capability",
+          "Integrated multiple ML models (LSTM, Random Forest, XGBoost) into production applications",
+          "Deployed applications on AWS and Supabase with CI/CD pipelines"
+        ],
+        "technologies": ["FastAPI", "Spring Boot", "React", "PostgreSQL", "ML", "AWS", "Docker"]
+      },
+      {
+        "id": 2,
+        "company": "Forage / Job Simulations",
+        "position": "Software Engineering Trainee",
+        "duration": "2025",
+        "icon": "code",
+        "description": "Completed virtual internship simulations covering full-stack development and system design",
+        "achievements": [
+          "Completed EA Software Engineering job simulation with real-world problem statements",
+          "Designed and implemented scalable system architectures",
+          "Practiced professional development workflows and code standards",
+          "Received feedback on production-grade code quality"
+        ],
+        "technologies": ["Python", "JavaScript", "System Design", "API Development"]
+      },
+      {
+        "id": 3,
+        "company": "Hackathon Participation",
+        "position": "Competitive Developer",
+        "duration": "2025 - Present",
+        "icon": "rocket",
+        "description": "Active participant in multiple hackathons, building innovative solutions under time constraints",
+        "achievements": [
+          "Participated in 5+ hackathons exploring diverse problem statements",
+          "Rapidly prototyped full-stack solutions in 24-48 hour sprints",
+          "Collaborated with cross-functional teams in competitive environments",
+          "Seeking winning innovations in AI-driven and fintech solutions"
+        ],
+        "technologies": ["Full Stack", "Rapid Development", "Team Collaboration", "Innovation"]
+      },
+        {
+        "id": 4,
+        "company": "GenXsys",
+        "position": "web developer intern",
+        "duration": "6th Dec 2025 - 6th Jan 2026",
+        "icon": "rocket",
+        "description": "A web devloper intern at GenXsys where I worked on real-world projects and gained practical experience.",
+        "achievements": [
+          "learn about full stack development in a professional environment",
+            "Collaborated with cross-functional teams to deliver project milestones",
+            "Implemented responsive UI components and optimized backend services",
+            "Gained hands-on experience with version control and deployment workflows"
+        ],
+        "technologies": ["Full Stack", "Rapid Development", "Team Collaboration", "Innovation"]
+      }
+    ]
+  },
+
+  "skills": {
+    "title": "Skills & Expertise",
+    "subtitle": "Technical Proficiencies",
+    "categories": [
+      {
+        "name": "Frontend Development",
+        "icon": "palette",
+        "skills": [
+          { "name": "React", "proficiency": 65 },
+          { "name": "JavaScript/TypeScript", "proficiency": 78 },
+          { "name": "HTML/CSS", "proficiency": 90 },
+          { "name": "Tailwind CSS", "proficiency": 82 },
+          { "name": "Vue.js", "proficiency": 55 },
+          { "name": "Flutter (Dart)", "proficiency": 70 }
+        ]
+      },
+      {
+        "name": "Backend Development",
+        "icon": "server",
+        "skills": [
+          { "name": "FastAPI", "proficiency": 85 },
+          { "name": "Spring Boot", "proficiency": 82 },
+          { "name": "Node.js", "proficiency": 78 },
+          { "name": "PostgreSQL", "proficiency": 85 },
+          { "name": "Supabase", "proficiency": 80 },
+          { "name": "REST APIs", "proficiency": 88 }
+        ]
+      },
+      {
+        "name": "AI & Machine Learning",
+        "icon": "brain",
+        "skills": [
+          { "name": "Python", "proficiency": 92 },
+          { "name": "TensorFlow/PyTorch", "proficiency": 78 },
+          { "name": "Scikit-learn", "proficiency": 80 },
+          { "name": "LSTM Networks", "proficiency": 75 },
+          { "name": "XGBoost", "proficiency": 78 },
+          { "name": "NLP & LLMs", "proficiency": 72 }
+        ]
+      },
+      {
+        "name": "Systems & DevOps",
+        "icon": "cpu",
+        "skills": [
+          { "name": "Linux based Operating Systems", "proficiency": 90 },
+          { "name": "Docker", "proficiency": 80 },
+          { "name": "Git", "proficiency": 92 },
+          { "name": "C/C++", "proficiency": 78 },
+          { "name": "Bash/Shell", "proficiency": 85 }
+          
+        ]
+      },
+      {
+        "name": "Programming Languages",
+        "icon": "code",
+        "skills": [
+          { "name": "Python", "proficiency": 92 },
+          { "name": "Java", "proficiency": 85 },
+          { "name": "JavaScript", "proficiency": 78 },
+          { "name": "C", "proficiency": 80 },
+          { "name": "SQL", "proficiency": 85 },
+          { "name": "Dart", "proficiency": 70 }
+        ]
+      }
+    ]
+  },
+
+  "education": {
+    "title": "Education & Certifications",
+    "subtitle": "Continuous Learning",
+    "items": [
+      {
+        "institution": "Vasantdada Patil Pratishthan's College of Engineering & Visual Arts",
+        "degree": "Bachelor of Engineering (Information Technology)",
+        "year": "2024 - 2028",
+        "status": "In Progress (2nd Year)",
+        "highlights": [
+          "part of Tech team of student council during 2024-25",
+            "Relevant Coursework: Data Structures, Algorithms, Database Management, Web Development, Operating Systems"
+
+        ]
+      },
+      {
+        "institution": "GeeksforGeeks",
+        "course": "Advanced Data Structures & Algorithms",
+        "year": "2025",
+        "status": "In Progress",
+        "highlights": ["160 Days DSA Challenge", "Competitive Programming", "Problem Solving"]
+      },
+      {
+        "institution": "Self-Directed Learning",
+        "course": "Full Stack Web Development",
+        "year": "2025",
+        "status": "In Progress",
+        "highlights": ["Spring Boot Mastery", "React Advanced Patterns", "System Design", "DevOps Fundamentals"]
+      }
+    ]
+  },
+
+  "contact": {
+    "title": "Get In Touch",
+    "subtitle": "Let's Connect",
+    "heading": "Let's work together",
+    "description": "Interested in internships, collaboration opportunities, or just want to chat about tech? I'd love to hear from you!",
+    "contactInfo": [
+      {
+        "icon": "mail",
+        "label": "Email",
+        "value": "vishalsodmise@gmail.com",
+        "link": "mailto:vishalsodmise@gmail.com"
+      },
+      {
+        "icon": "map-pin",
+        "label": "Location",
+        "value": "Mumbai, Maharashtra, India"
+      }
+    ],
+    "socialLinks": [
+      { "name": "GitHub", "url": "https://github.com/Vishal-43", "icon": "github" },
+      { "name": "LinkedIn", "url": "https://linkedin.com/in/vishal-it", "icon": "linkedin" },
+      { "name": "Twitter", "url": "https://x.com/vishalsodmise", "icon": "twitter" },
+      { "name": "Email", "url": "mailto:vishalsodmise@gmail.com", "icon": "mail" }
+    ],
+    "formFields": [
+      { "name": "name", "label": "Your Name", "type": "text", "required": true, "placeholder": "Vishal Sodmise" },
+      { "name": "email", "label": "Your Email", "type": "email", "required": true, "placeholder": "vishalsodmise@gmail.com" },
+      { "name": "subject", "label": "Subject", "type": "text", "required": true, "placeholder": "Internship Opportunity / Project Inquiry" },
+      { "name": "message", "label": "Message", "type": "textarea", "required": true, "placeholder": "Tell me about the opportunity or your thoughts..." }
+    ]
+  }
+}
