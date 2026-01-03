@@ -166,8 +166,8 @@
         "githubUrl": "https://github.com/Vishal-43/assitant_captain",
         "badges": [""]
       },
-       {
-        "id": 5,
+      {
+       "id": 6,
         "title": "Quasar Browser",
         "category": "Other",
         "shortDescription": "voice based Ai assistant",
