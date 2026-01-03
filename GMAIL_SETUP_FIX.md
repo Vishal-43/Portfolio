@@ -29,7 +29,7 @@ Replace the old password with the new one:
 
 ```dotenv
 # Before (Invalid - no spaces)
-SMTP_PASS=zwry qmtehfkcldiw
+SMTP_PASS=zwgy qmjehfkjldiw
 
 # After (Correct - copy with spaces)
 SMTP_PASS=xxxx xxxx xxxx xxxx
@@ -41,9 +41,9 @@ Your `.env.local` should look like:
 ```dotenv
 SMTP_HOST=smtp.gmail.com
 SMTP_PORT=587
-SMTP_USER=meticura@gmail.com
+SMTP_USER=rasgula@gmail.com
 SMTP_PASS=xxxx xxxx xxxx xxxx    ← Must have spaces!
-SMTP_FROM_EMAIL=meticura@gmail.com
+SMTP_FROM_EMAIL=gulabjammun@gmail.com
 SMTP_FROM_NAME=Portfolio Website
 CONTACT_RECIPIENT_EMAIL=vishalsodmise@gmail.com
 ```

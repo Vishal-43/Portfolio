@@ -69,7 +69,11 @@ const Contact = () => {
     setSubmitStatus(null);
 
     try {
-      const apiUrl = import.meta.env.VITE_API_URL || 'http://localhost:5000';
+      const apiUrl = (
+        import.meta.env.VITE_API_URL
+        || (import.meta.env.DEV ? 'http://localhost:5000' : window.location.origin)
+      ).replace(/\/$/, '');
+
       const response = await fetch(`${apiUrl}/api/contact`, {
         method: 'POST',
         headers: {
