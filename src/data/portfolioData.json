@@ -104,6 +104,11 @@
         "icon": "trending-up",
         "title": "Internship",
         "description": "Gained practical experience through internship, applying skills in real-world projects and collaborating with professional teams at GenXsys."
+      },
+      {"year": "2026",
+       "icon": "trending-up",
+       "title": "TPO Cordinator",
+       "description": "Being a part of Traning and Placement Office of my college as a coordinator, Collabrating with Other Coordinators to organize vairous events and placement Drives, innovating ideas to attract more comapnies "
       }
     ]
   },
@@ -113,6 +118,17 @@
     "subtitle": "Building Intelligent Solutions",
     "filters": ["all", "fullstack", "ai-ml", "systems"],
     "items": [
+      {
+        "id": 7,
+        "title" : "Smart Attendance System",
+        "catefgory": "fullstack, mobile devlopment",
+        "shortDescription":"Application to manage, track and analyze attendance of students with real-time attendance, QR and OTP based Attendance marking, Geofancing and Acess Point verification method for proxy prevention, Role based access control and detailed attendance report",
+        "description":"Application to manage, track and analyze attendance of students with real-time attendance, QR and OTP based Attendance marking, Geofancing and Acess Point verification method for proxy prevention, Role based access control and detailed attendance report",
+        "technologies": ["Flutter", "Dart", "FastAPI", "PostgreSQL", "JWT Auth", "Docker", "React Admin Dashboard"],
+        "githubUrl": "https://github.com/Vishal-43/smart-attendece-system",
+        "badges": ["Mobile App", "Latest"],
+        "liveUrl" : "https://smart-attendece-system-ashen.vercel.app/"
+      },
       {
         "id": 1,
         "title": "Fintech Agentic AI Banking System",
